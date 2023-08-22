@@ -13,3 +13,12 @@ for i in range(20):
 	if (numero == 0):
 	breake
 	print(numero)  
+
+Outra forma:
+
+andar = 20
+while andar >= 1:
+    if andar != 13:
+        print(andar)
+    andar -= 1
+print("Último andar")
